@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Koustav Chowdhury</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
+
+<style>
+:root {
+    --text: #1a1a1a;
+    --muted: #555;
+    --accent: #2b6cb0;
+    --border: #e5e5e5;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+    margin: 0;
+    font-family: "Inter", system-ui, sans-serif;
+    color: var(--text);
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 900px;
+    margin: auto;
+    padding: 0 20px;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    background: white;
+    border-bottom: 1px solid var(--border);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 24px;
+    padding: 16px 0;
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: var(--text);
+    font-weight: 500;
+}
+
+nav a:hover { color: var(--accent); }
+
+section { padding: 70px 0; }
+
+h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 25px;
+}
+
+.name {
+    font-size: 34px;
+    font-weight: 600;
+}
+
+.affiliation {
+    color: var(--muted);
+    font-size: 17px;
+    max-width: 750px;
+    margin-top: 8px;
+}
+
+.profile {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.profile img {
+    width: 160px;
+    border-radius: 8px;
+}
+
+.icons {
+    display: flex;
+    gap: 18px;
+    margin-top: 16px;
+}
+
+.icons a {
+    font-size: 22px;
+    color: var(--text);
+}
+
+.icons a:hover { color: var(--accent); }
+
+.cv-button {
+    display: inline-block;
+    margin-top: 22px;
+    padding: 10px 16px;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 14px;
+}
+
+.cv-button:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.item { margin-bottom: 18px; }
+
+.title { font-weight: 500; }
+
+.meta {
+    font-size: 14px;
+    color: var(--muted);
+}
+
+footer {
+    padding: 40px 0 60px;
+    font-size: 13px;
+    color: var(--muted);
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="container">
+<ul>
+<li><a href="#home">Home</a></li>
+<li><a href="#research">Research / Talks</a></li>
+<li><a href="#misc">Miscellaneous</a></li>
+<li><a href="CV.pdf" download>CV</a></li>
+</ul>
+</div>
+</nav>
+
+<section id="home">
+<div class="container">
+<div class="profile">
+<img src="photo.jpg" alt="Koustav Chowdhury">
+
+<div>
+<div class="name">Koustav Chowdhury</div>
+<div class="affiliation">
+Masters Student in Statistics <br>
+Indian Statistical Institute, Kolkata, India <br><br>
+Research interests: Machine Learning, Statistical Learning Theory, Optimization,
+Clustering, Bandits, Robust Statistics.
+</div>
+
+<div class="icons">
+<a href="https://scholar.google.com/" target="_blank"><i class="fa-solid fa-graduation-cap"></i></a>
+<a href="https://www.linkedin.com/in/koustav-chowdhury-314028240" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+<a href="https://github.com/Koustav-Chowdhury73" target="_blank"><i class="fa-brands fa-github"></i></a>
+</div>
+
+<a class="cv-button" href="CV.pdf" download>Download CV</a>
+</div>
+</div>
+</div>
+</section>
+
+<section id="research">
+<div class="container">
+<h2>Research / Talks</h2>
+
+<div class="item">
+<div class="title">
+Convex Clustering Redefined: Robust Learning with the Median of Means Estimator
+</div>
+<div class="meta">
+K. Chowdhury*, S. De*, B. Mandal*, S. Ghosh, S. Das, D. Paul, S. Chakraborty <br>
+AAAI 2025 (Accepted) · <a href="https://arxiv.org/abs/2511.14784" target="_blank">arXiv</a>
+</div>
+</div>
+
+<div class="item">
+<div class="title">
+Exploring Bandit Algorithms: A Useful Tool to Deal with Sequential Data
+</div>
+<div class="meta">
+Invited Talk · D. Basu Memorial Award Presentation · ISI Kolkata · 2025
+</div>
+</div>
+
+</div>
+</section>
+
+<section id="misc">
+<div class="container">
+<h2>Miscellaneous</h2>
+
+<div class="item">
+<div class="title">Ongoing Research</div>
+<div class="meta">
+High-dimensional Linear Mixed-Effects Models (Supervisor: Prof. Abhik Ghosh) <br>
+Multi-Armed Bandits & Stochastic Mirror Descent (Supervisor: Prof. Koulik Khamaru)
+</div>
+</div>
+
+<div class="item">
+<div class="title">Internships & Programs</div>
+<div class="meta">
+Big Data Summer Immersion, Yale School of Public Health (Summer 2025) <br>
+Data Analyst, Innover Capital Solutions (Winter 2024)
+</div>
+</div>
+
+<div class="item">
+<div class="title">Achievements</div>
+<div class="meta">
+KVPY Fellow · JEE Advanced AIR 808 · WBJEE Rank 5 · ISI Entrance Rank 17
+</div>
+</div>
+
+</div>
+</section>
+
+<footer>
+<div class="container">
+© Koustav Chowdhury · Last updated 2025
+</div>
+</footer>
+
+</body>
+</html>
